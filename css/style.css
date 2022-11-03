@@ -1,0 +1,46 @@
+.right-box {
+    max-width: 710px;
+    margin: 229px 0px 338px 70px;
+}
+.image-main {
+    max-width: 670px;
+    height: 636px;
+    margin-top: 126px;
+}
+.right-box :nth-child(1) {
+    width: 99px;
+    margin-bottom: 54px;
+}
+.block {
+    width: 326px;
+    height: 316px;
+    padding: 36px 52px 16px 52px;
+}
+.section2 {
+    padding: 187px 235px 151px 253px;
+}
+.devider {
+    width: 50px;
+    height: 2px;
+    background-color: #FFAA00;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.block p {
+    font-size: 16px;
+    width: 218px;
+}
+.block h3 {
+    margin-top: 16.8px;
+    font-size: 20px;
+}
+.main-title {
+    font-family: 'Montserrat';
+    margin-top: 66px;
+}
+p {
+    font-family: 'Montserrat';
+}
+h3 {
+    font-family: 'Montserrat';
+}
