@@ -1,7 +1,4 @@
-.right-box {
-    max-width: 710px;
-    margin: 229px 0px 338px 70px;
-}
+
 .image-main {
     max-width: 670px;
     height: 636px;
@@ -9,16 +6,9 @@
 }
 .right-box :nth-child(1) {
     width: 99px;
-    margin-bottom: 54px;
+    
 }
-.block {
-    width: 326px;
-    height: 316px;
-    padding: 36px 52px 16px 52px;
-}
-.section2 {
-    padding: 187px 235px 151px 253px;
-}
+
 .devider {
     width: 50px;
     height: 2px;
@@ -44,3 +34,29 @@ p {
 h3 {
     font-family: 'Montserrat';
 }
+
+/* responsive */
+@media (max-width: 1500px) {
+    .section2 {
+        flex-wrap: wrap;
+
+    }
+    .block {
+        max-width: 80%;
+    }
+
+}
+@media (max-width: 1150px) {
+    .section1 {
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 700px) {
+    .image-main {
+        max-width: 80%;
+        height: 80%;
+    }
+
+}
+
